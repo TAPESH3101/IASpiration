@@ -1,0 +1,47 @@
+<%- include("header") -%>
+    <%- include("navbar") -%>
+
+
+        <div class="notez-head">
+            <h1>Daily E News Paper and it’s Notes</h1>
+        </div>
+
+        <ul class="notez-imp">
+            <li>It is impossible to overstate the value of newspaper reading for passing the UPSC Civil Services Exam.
+            </li>
+            <li>Newspapers offer essential study material for current affairs, which is a significant component of the
+                questions answered in the IAS exam, in addition to the traditional NCERT textbooks and reference books.
+            </li>
+        </ul>
+
+        <div class="notez-img">
+            <h2 class="af6">After 6 AM you can Download <br> everyday News Paper </h2>
+            <img class="nt-img" src="images/undraw_Online_article_re_daq5.png" alt="">
+        </div>
+
+
+        <div class="notez-news-content">
+
+            <% for( let i=0; i < news.length; i++ ) { %>
+                <div class="content-notez">
+                    <p class="ndate">Date: <%= news[i].date %>
+                    </p>
+                    <a class="nlink" href=<%=news[i].nplink %>>Download</a>
+
+                    <div class="npbtn">
+                        <a href=<%=news[i].notes %> > <button class="btn btn-lg btn-success nbtn">Notes</button></a>
+                    </div>
+                </div>
+
+
+
+                <% } %>
+
+
+
+        </div>
+
+
+
+
+        <%- include("footer") -%>

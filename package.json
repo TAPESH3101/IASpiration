@@ -1,0 +1,34 @@
+{
+  "name": "iaspiration",
+  "version": "1.0.0",
+  "description": "---\r 1. go to the directory\r 2. open gitbash. \r ```\r 3. cmd: git clone url (paste the url of thir repo).\r ```\r ```\r git clone git@github.com:harshitisback/IASpiration.git\r ```\r ---",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": "16.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitisback/IASpiration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitisback/IASpiration/issues"
+  },
+  "homepage": "https://github.com/harshitisback/IASpiration#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "math": "^0.0.3",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.22"
+  }
+}
