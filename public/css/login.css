@@ -39,7 +39,7 @@
 content: "";
 flex: 1;
 height: 1px;
-background: #eee;
+background: #f7f3f3;
 }
 .h-custom {
 height: calc(100% - 73px);
